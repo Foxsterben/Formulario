@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="hint_nombre">Nombre completo</string>
+    <string name="hint_telefono">Teléfono</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_descripion">Descripción Contacto</string>
+    <string name="bt_siguiente">Siguiente</string>
+    <string name="tv_descripcion">Descripción Contacto</string>
+    <string name="tv_encabezado">Confirmar Datos</string>
+    <string name="tv_nombre">Nombre:</string>
+    <string name="tv_nombreContacto">Saúl Báez</string>
+    <string name="tv_fechaNacimiento">Fecha nacimiento:</string>
+    <string name="tv_fechaContacto">27/10/1990</string>
+    <string name="tv_tel">Tel.</string>
+    <string name="tv_telContacto">5533886760</string>
+    <string name="tv_descripcion2">Descripción:</string>
+    <string name="tv_descripcionContacto">Lo conocí en una reunión de genios en Oxford</string>
+    <string name="btn_editarDatos">Editar Datos</string>
+    <string name="par_nombre">nombre</string>
+    <string name="par_fecha">fecha</string>
+    <string name="par_telefono">telefono</string>
+    <string name="par_email">email</string>
+    <string name="par_descripcion">descripcion</string>
+    <string name="tv_email">Email:</string>
+    <string name="tv_emailContacto">ss.baez@comunidad.unam.mx</string>
+    <string name="par_nombre2">nombre</string>
+    <string name="par_fecha2">fecha</string>
+    <string name="par_telefono2">telefono</string>
+    <string name="par_email2">email</string>
+    <string name="par_descripcion2">descripcion</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+</resources>

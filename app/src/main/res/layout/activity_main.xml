@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ss_baez.formulario.MainActivity"
+    android:background="@color/colorFondo"
+    >
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/tS_mainActivity"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/FetNombre_completo"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp"
+        />
+
+    <Button
+        android:id="@+id/btn_get_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_ok"
+        android:textSize="@dimen/btn_ok"
+        android:layout_alignBaseline="@+id/btn_update_date"
+        android:layout_alignBottom="@+id/btn_update_date"
+        android:layout_alignRight="@+id/dp"
+        android:layout_alignEnd="@+id/dp"
+        android:theme="@style/MiBotonRaised"/>
+
+    <Button
+        android:id="@+id/bt_siguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/bt_siguiente"
+        android:theme="@style/MiBotonRaised"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/FetTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorAccent"
+        android:layout_below="@+id/btn_update_date"
+        android:layout_marginTop="@dimen/mtop_telefono">
+
+        <EditText
+            android:id="@+id/etTelefono"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_telefono"
+            android:textSize="@dimen/tS_mainActivity"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            android:theme="@style/CampoTextoBorde"
+            android:inputType="phone"
+            android:imeOptions="actionNext"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/FetNombre_completo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorAccent">
+
+        <EditText
+            android:id="@+id/etNombre_completo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_nombre"
+            android:textSize="@dimen/tS_mainActivity"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            android:theme="@style/CampoTextoBorde"
+            android:inputType="textPersonName"
+            android:cursorVisible="true"
+            android:imeOptions="actionNext"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/FetEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorAccent"
+        android:layout_below="@+id/FetTelefono"
+        android:layout_marginTop="@dimen/mtop_email">
+
+        <EditText
+            android:id="@+id/etEmailAddress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_email"
+            android:textSize="@dimen/tS_mainActivity"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            android:theme="@style/CampoTextoBorde2"
+            android:inputType="textEmailAddress"
+            android:imeOptions="actionNext"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/FetDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorAccent"
+        android:layout_below="@+id/FetEmailAddress"
+        android:layout_marginTop="@dimen/mtop_descripcion">
+
+        <EditText
+            android:id="@+id/etDescripcion"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_descripion"
+            android:textSize="@dimen/tS_mainActivity"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            android:theme="@style/CampoTextoBorde"
+            android:inputType="text"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <DatePicker
+        android:id="@+id/dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        android:yearListSelectorColor="@color/colorAccent"
+        android:calendarTextColor="@color/colorAccent"
+        android:layout_above="@+id/FetTelefono"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp" />
+
+    <Button
+        android:id="@+id/btn_update_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/btm_cancel"
+        android:text="@string/btn_cancel"
+        android:theme="@style/MiBotonRaised"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/dp"
+        android:layout_alignStart="@+id/dp" />
+
+
+</RelativeLayout>

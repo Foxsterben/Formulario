@@ -1,0 +1,36 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="mtop_telefono">3dp</dimen>
+    <dimen name="mtop_email">3dp</dimen>
+    <dimen name="mtop_descripcion">3dp</dimen>
+    <dimen name="mleft_descripcion">5dp</dimen>
+    <dimen name="et_descripcion">2dp</dimen>
+    <dimen name="tv_descripcion">19dp</dimen>
+    <dimen name="mbtn_descripcion">37dp</dimen>
+    <dimen name="tv_encabezado">27sp</dimen>
+    <dimen name="lmT_ll_1">55dp</dimen>
+    <dimen name="tS_nombre">20sp</dimen>
+    <dimen name="tS_nombreContacto">20sp</dimen>
+    <dimen name="lmT_ll_2">10dp</dimen>
+    <dimen name="lmLS_nombreContacto">10dp</dimen>
+    <dimen name="tS_fechaNacimiento">20sp</dimen>
+    <dimen name="tS_fechaContacto">20sp</dimen>
+    <dimen name="lmLS_fechaContacto">10dp</dimen>
+    <dimen name="lmT_ll_3">10dp</dimen>
+    <dimen name="tS_tel">20sp</dimen>
+    <dimen name="tS_telContacto">20sp</dimen>
+    <dimen name="lmLS_telContacto">10dp</dimen>
+    <dimen name="lmT_ll_4">10dp</dimen>
+    <dimen name="tv_descripcion2">20sp</dimen>
+    <dimen name="tv_descripcionContacto">20sp</dimen>
+    <dimen name="lmLS_descripcionContacto">10dp</dimen>
+    <dimen name="lmT_ll_3.1">10dp</dimen>
+    <dimen name="tS_email">18sp</dimen>
+    <dimen name="lmLS_emailContacto">10dp</dimen>
+    <dimen name="btn_ok">10sp</dimen>
+    <dimen name="btm_cancel">10sp</dimen>
+    <dimen name="tv_tv">18sp</dimen>
+    <dimen name="tS_mainActivity">15sp</dimen>
+</resources>
